@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sing up</title>
+  <style>
+  
+    body {
+      text-align: center;
+      background-color: goldenrod;
+    }
+
+    .A {
+      border: 2px solid beige;
+      background-color: whitesmoke;
+      margin: 10%;
+      padding: 10%;
+      max-width: 400px; /* ফর্মের মাধ্যমে সর্বাধিক প্রস্থ নির্ধারণ */
+      margin: 0 auto; /* ফর্মটি সরাসরি সেন্টার করবে */
+    }
+
+    .a {
+      color: goldenrod;
+    }
+
+    .b, .c, .d, .e, .f {
+      text-align: left;
+      color: blue;
+      margin-bottom: 10px; /* আনুমানিক পাঠ ও ইনপুটের মাঝখানে ফাকা অংশ */
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%; /* ইনপুট প্রস্থ পূর্ণতা নির্ধারণ */
+      padding: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: goldenrod;
+      border: none;
+      font-size: 20px;
+      padding: 10px;
+      color: white;
+      cursor: pointer;
+      margin-top: 10px; /* বাটন ও পাঠের মাঝখানে ফাকা অংশ */
+    }
+
+    button:hover {
+      background-color: darkgoldenrod;
+    }
+
+    h4 {
+      margin-top: 20px; /* শর্তাদি পাঠের ওপরে ফাকা অংশ */
+      color: #666;
+    }
+
+    p {
+      color: blue;
+    }
+ 
+  </style>
+</head>
+
+<body>
+  <div class="A">
+  <form>
+    <div class="a">
+  <h1>Sing up</h1>
+    
+  <h3>Thank you for sing up</h3><br>
+    </div>
+    
+    <div class="b">
+    First name:<br><br>
+    
+    <input type="text" size="20" maxlength="20" name="first name"><br><br>
+    </div>
+    
+    <div class="c">
+      
+    Last name:<br><br>
+    <input type="text" size="20" maxlength="20" name="Last name"><br><br>
+    </div>
+    
+    <div class="d">
+      
+    email:<br><br>
+    <input type="text" size="20" maxlength="20" name="email"><br><br>
+    </div>
+    
+    <div class="e">
+      
+    password:<br><br>
+    <input type="text" size="20" maxlength="20" name="password"><br><br>
+    </div>
+    
+    <div class="f">
+      
+    Re-type password:<br><br>
+    <input type="text" name="password"><br><br>
+    </div>
+    
+     <button type="submit"class="btn">Submit</button><br><br>
+    
+    <h4>By click sing up button, you agree with  us.</h4>
+    
+    <p>Terms & condition, privacy policy. </p>
+    
+    
+  </form>
+  </div>
+</body>
+
+</html>
